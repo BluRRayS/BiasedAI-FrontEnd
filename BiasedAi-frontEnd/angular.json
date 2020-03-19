@@ -123,5 +123,8 @@
       }
     }
   },
-  "defaultProject": "BiasedAi-frontEnd"
+  "defaultProject": "BiasedAi-frontEnd",
+  "cli": {
+    "analytics": false
+  }
 }

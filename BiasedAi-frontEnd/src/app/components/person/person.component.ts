@@ -9,7 +9,7 @@ import { PersonService } from 'src/app/services/person.service';
 })
 export class PersonComponent implements OnInit {
 
-  private person :Person
+  person :Person
 
   constructor(personService :PersonService ) { 
     personService.getPerson().subscribe((response) => {
